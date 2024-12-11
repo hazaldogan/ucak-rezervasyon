@@ -4,6 +4,7 @@ import com.teamso.ucak_rezervasyon.entity.Reservation;
 import com.teamso.ucak_rezervasyon.exceptions.ReservationException;
 import jakarta.annotation.PostConstruct;
 import org.springframework.http.HttpStatus;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
